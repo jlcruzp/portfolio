@@ -1,8 +1,7 @@
 .encriptador_text{
     display:flex;
-    align-items:space-between;
     max-width: 1000px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     }
 
@@ -24,11 +23,6 @@
         font-size: 1.5rem;
     }
 
-.barra_codigo{
-    display: flex;
-    width:70%;
-    justify-content: center;
-}
 
 .img_encriptador{
     border-radius: 1rem;
@@ -36,7 +30,7 @@
 }
 
 .img_encriptador:hover{
-    transform: scale(1.085);
+    transform: scale(1.145);
 }
 
 .nav_encriptador{
