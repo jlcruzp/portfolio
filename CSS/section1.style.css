@@ -1,0 +1,42 @@
+.figuretext{
+display:flex;
+justify-content: space-around;
+align-items:center;
+margin-top: 10rem;
+max-width: 1000px;
+}
+
+.text h2{
+    display:flex;
+    font-family: "Gowun Dodum";
+    font-size: 2rem;
+    margin: 3rem 1rem;
+    font-weight: bold;
+
+}
+
+.text p{
+    display:flex;
+    text-align: justify;
+    padding-left: .7rem;
+    padding-bottom: 3rem;
+    margin: 1.7rem .7rem;
+    font-size: 1.5rem;
+}
+
+.nav-social{
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+.social_item{
+    transition: 1s;
+}
+.social_item:hover{
+opacity: 0.70;
+transform: scale(1.5);
+
+}
+
+

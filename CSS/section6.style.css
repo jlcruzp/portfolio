@@ -1,0 +1,54 @@
+.encriptador_text{
+    display:flex;
+    align-items:space-between;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .text_encriptador h2{
+        display:flex;
+        justify-content: center;
+        font-family: "Gowun Dodum";
+        font-size: 2rem;
+        font-weight: bold;
+    
+    }
+    
+    .text_encriptador p{
+        display:flex;
+        text-align: justify;
+        padding-left: .7rem;
+        padding-bottom: 3rem;
+        margin: 1.7rem .7rem;
+        font-size: 1.5rem;
+    }
+
+.barra_codigo{
+    display: flex;
+    width:70%;
+    justify-content: center;
+}
+
+.img_encriptador{
+    border-radius: 1rem;
+    transition: 1s;
+}
+
+.img_encriptador:hover{
+    transform: scale(1.085);
+}
+
+.nav_encriptador{
+    display:flex;
+    justify-content: space-around;
+}
+
+.encriptador_item{
+    transition: 1s;
+}
+.encriptador_item:hover{
+opacity: 0.70;
+transform: scale(1.5);
+
+}

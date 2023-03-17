@@ -1,0 +1,40 @@
+/* HEADER STYLES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .page-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 20px 0;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  .page-header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Gowun Dodum";
+  }
+  
+  .page-header button {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 14px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    transition: background 1s;
+    font-family: "Gowun Dodum";
+  }
+  
+  .page-header button img {
+    flex-shrink: 0;
+    margin-left: 5px;
+    fill: currentColor;
+  }
+  
+  .page-header button:hover {
+    background:#d07272;
+  }

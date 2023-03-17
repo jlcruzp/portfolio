@@ -1,0 +1,39 @@
+.section4{
+    width: 100vw;
+        
+}
+
+.hobbie_container{
+    display:flex;
+    justify-content: space-around;
+    max-width: 90vw;
+    flex-wrap: wrap;
+    padding-left: 7rem;
+}
+
+.hobbie{
+    width: 19%;
+    height: 30vh; /*Cambiar con el responsive para ajustar a la pantalla pequeña*/
+    background:linear-gradient(white,white, #787878);
+
+}
+.hobbie_logo{
+ width: 3rem;
+ padding-left: .7rem;
+ padding-top: .7rem;
+}
+
+.hobbie_contenido{
+    padding-left: .7rem;
+}
+
+ 
+  .desvanecer:hover {
+    opacity: 0.55;
+    -webkit-transition: opacity 600ms;
+    -moz-transition: opacity 600ms;
+    -o-transition: opacity 600ms;
+    -ms-transition: opacity 600ms;
+    transition: opacity 600ms;
+  }
+

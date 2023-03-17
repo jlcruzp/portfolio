@@ -1,0 +1,30 @@
+
+.section3{
+    width: 100vw;
+    
+    
+}
+
+.skills_container{
+    display:flex;
+    justify-content: space-around;
+    max-width: 90vw;
+    flex-wrap: wrap;
+    padding-left: 7rem;
+}
+
+.skill{
+    width: 19%;
+    height: 30vh; /*Cambiar con el responsive para ajustar a la pantalla pequeña*/
+    background:linear-gradient(white,white, #787878);
+
+}
+.skill_logo{
+ width: 3rem;
+ padding-left: .7rem;
+ padding-top: .7rem;
+}
+
+.skill_contenido{
+    padding-left: .7rem;
+}

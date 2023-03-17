@@ -1,0 +1,49 @@
+.section5{
+    width: 100vw;
+    
+        
+}
+
+.formacion_container_max{
+    display:flex;
+    justify-content: space-around;
+    max-width: 90vw;
+    flex-wrap: wrap;
+    padding-left: 7rem;
+}
+
+.formacion{
+    width: 30%;
+    height: 30vh; /*Cambiar con el responsive para ajustar a la pantalla pequeña*/
+    background: none;
+}
+
+.formacion_logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 2.2rem;
+}
+
+.formacion_contenido{
+    padding-left: .7rem;
+    font-family:  "Gowun Dodum";
+}
+
+.formacion_titulo{
+    font-size: 1.3rem;
+    font-style: bold;
+}
+
+.formacion_cuerpo{
+
+    font-size: 1rem;
+}
+ 
+  .desvanecer:hover {
+    opacity: 0.55;
+    -webkit-transition: opacity 600ms;
+    -moz-transition: opacity 600ms;
+    -o-transition: opacity 600ms;
+    -ms-transition: opacity 600ms;
+    transition: opacity 600ms;
+  }
