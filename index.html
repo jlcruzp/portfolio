@@ -2,9 +2,11 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width" />
+                <meta name="viewport" content="width=device-width initial-scale=1.0" />
                 <title>Juan Luis Cruz Peña</title>
                 <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
                 <link rel="stylesheet" href="CSS/reset.css">
                 <link rel="stylesheet" href="CSS/style.css">
                 <link rel="stylesheet" href="CSS/header.style.css">
@@ -14,56 +16,71 @@
                 <link rel="stylesheet" href="./CSS/section4.style.css">
                 <link rel="stylesheet" href="./CSS/section5.style.css">
                 <link rel="stylesheet" href="./CSS/section6.style.css">
-
-
+                <link rel="stylesheet" href="./CSS/section7.style.css">
+                <link rel="stylesheet" href="./CSS/componentes/button.css">
+                <link rel="stylesheet" href="./CSS/componentes/card.css">
+                <link rel="stylesheet" href="./CSS/registro.css">
+                <link rel="stylesheet" href="./CSS/base/base.css">
+                <link rel="stylesheet" href="./CSS/variables.css">
 
     </head>
+    <a id="home"></a>
+    <br>
+    <br>
 
-    <body id="home" >
+    <body >
         
     <header class="page-header">
         <div class="container">
           <nav class="navbar">
-             <a href="#home"><img width="178" height="48" src="Imagenes/JLOGO.png" alt="Logo Juan Luis"></a>
-            <a id="sobremi" href="#cv" >Sobre mi</a>
-            <a id="skills" href="#skills_section">Skills</a>
-            <a id="hobbies" href="#hobbies_section">Hobbies</a>
-            <a id="formacion" href="#formacion_section">Formacion</a>
-           <a id="experiencia" href="#experiencia_section">Experiencia</a>
+             <a href="#home"><img class="img_logo_juan" src="Imagenes/JLOGO.png" alt="Logo Juan Luis"></a>
+            <a  class="navbar_item" href="#sobremi" >Sobre mi</a>
+            <a  class="navbar_item" href="#skills">Skills</a>
+            <a  class="navbar_item" href="#hobbie">Hobbies</a>
+            <a  class="navbar_item" href="#formacion">Formacion</a>
+           <a  class="navbar_item" href="#experiencia">Experiencia</a>
 
             <button type="button">
-              <a id="Contacto" href="#primera">Contacto</a>
+              <a href="#contacto">Contacto</a>
             </button>
           </nav>
         </div>
       </header>
       
-      <section id="inicio">
+      <section>
         <div class="container container-max">
             <figure class="figuretext">
-            <img id ="juan" height="248" width= "248" src="./Imagenes/JUAN_LOGO.png" alt="Foto de perfil Juan Luis">
+            <img id ="juan"  src="./Imagenes/JUAN_LOGO.png" alt="Foto de perfil Juan Luis">
             <div class="text ">
               <h2 class="not-active">Hola, mi nombre es Juan Luis y soy Ingeniero Industrial</h2>
               <p class ="not-active">Egresado de la UPIICSA en el Instituto Politécnico Nacional y actualmente participo en el proyecto ONE de Oracle y Alura Latam.</p>
-              <nav class="nav-social">
-              <a class="social_item" id="github" href="https://github.com/jlcruzp" >Github</a>
-              <a class="social_item" id="linkedin" href="https://www.linkedin.com/in/jcruzpea/">linkedin</a>
-              <a class="social_item" id="instagram" href="https://www.instagram.com/juanluiscruzpena/">Instagram</a>
-              <a class="social_item" id="cv" href="./data/Juan Luis Cruz Peña CV-1.pdf">Curriculum</a>
-              </nav>
+           
             </div>
+           
           </figure>
+          <nav class="nav-social">
+            <a class="social_item" id="github" href="https://github.com/jlcruzp" >Github</a>
+            <a class="social_item" id="linkedin" href="https://www.linkedin.com/in/jcruzpea/">linkedin</a>
+            <a class="social_item" id="instagram" href="https://www.instagram.com/juanluiscruzpena/">Instagram</a>
+            <a class="social_item" href="./data/Juan Luis Cruz Peña CV-1.pdf">Curriculum</a>
+            </nav>
         </div>
       </section>
+      <br>
+      <a id="sobremi"></a> <br>
+       
       <section class="section2">
         <div class="container container-max">
           <div class="text not-active">
-            <h2 id="aboutme">Sobre mi...</h2>
-            <p>Soy una persona curiosa y me gusta resolver problemas. Los desafíos me motivan a encontrar las mejores soluciones a través del trabajo en equipo, buena comunicación, desarrollo personal y profesional.</p>
-            <p id="skills_section">Cuento con más de 13 años de experiencia en gestión de operaciones, optimización de procesos, gestión de proyectos y estructura organizacional con pensamiento ágil, basado siempre en la mejora continua. </p>
+            <h2 class="aboutme">Sobre mi...</h2>
+            <p class="aboutmetext">Soy una persona curiosa y me gusta resolver problemas. Los desafíos me motivan a encontrar las mejores soluciones a través del trabajo en equipo, buena comunicación, desarrollo personal y profesional.</p>
+            <p  class="aboutmetext">Cuento con más de 13 años de experiencia en gestión de operaciones, optimización de procesos, gestión de proyectos y estructura organizacional con pensamiento ágil, basado siempre en la mejora continua. </p>
+            <br>
+            <a id="skills"></a>
           </div>
         </div>
       </section>
+
       
       <section class="section3">
         <h2 class="section_titulo not-active">Skills</h2>
@@ -72,7 +89,9 @@
             <img class="skill_logo" src="./Imagenes/html5.png" alt="Logo HTML5">
               <div class="skill_contenido">
                       <h4 class="skill_titulo not-active">HTML5</h4>
-                  </div>
+                 
+                    </div>
+                    
           </div > 
                   <div class="skill desvanecer">
                     <img class="skill_logo" src="./Imagenes/css-3.png" alt="Logo CSS3">
@@ -167,11 +186,12 @@
                                                                            <div class="skill desvanecer">
                                                                             <img class="skill_logo" src="./Imagenes/almacen.png" alt="Logo almacen">
                                                                               <div class="skill_contenido">
-                                                                                      <h4 class="skill_titulo not-active" id="hobbies_section">Gestión de <br>Almacenes</h4>
-                                                                                  </div>                                                                           
+                                                                                      <h4 class="skill_titulo not-active">Gestión de <br>Almacenes</h4>
+                                                                                  </div> 
+                                                                                                                                                          
                                                                            </div>
           </div >                                                              
-        </section>
+        </section><br> <a id="hobbie"></a> 
 
         <section class="section4">
 
@@ -211,12 +231,12 @@
             <div class="hobbie desvanecer">
               <img class="hobbie_logo" src="./Imagenes/destino.png" alt="Logo viaje">
                 <div class="hobbie_contenido">
-                        <h4 id="formacion_section" class="hobbie_titulo not-active">Viajar</h4>
+                        <h4  class="hobbie_titulo not-active">Viajar</h4>
                     </div>                                                                                                                               
                  </div>
 
           </div>
-
+        </section> <a id="formacion"></a> <br>
         </section>
 
 
@@ -254,12 +274,12 @@
 
         </section>
 
-
+      </section> <a id="experiencia"></a> <br>
         <section class="section6">
           <div class="container container-max">
             <h2 class="section_titulo not-active">Experiencia</h2>
               <figure class="encriptador_text">
-              <img class="img_encriptador" height="248" width= "548" src="./Imagenes/pictures_projects/encriptador.png" alt="Foto proyecto encriptador">
+              <img class="img_encriptador"  src="./Imagenes/pictures_projects/encriptador.png" alt="Foto proyecto encriptador">
               <div class="text_encriptador">
                 <h2 class="not-active">Encriptador de texto</h2>
                 <p class ="not-active">Challenge Oracle & Alura Latam.</p>
@@ -272,8 +292,45 @@
             </figure>
           </div>
         </section>
-      
-
+        <a id="contacto"></a>
+        <section class="section7">
+          <h2 class="contacto_titulo not-active">Contacto</h2>
+          <div class="container_contacto">
+          <div class="imagen_formulario">
+            <img class="imagen_formulario_contacto" height= "570" width= "460" src="./Imagenes/contacto.png" alt="Imagen de teléfono descolgado">
+          </div>
+          <form id="formulario_contacto"action="./mensaje_enviado.html" class="formulario flex flex--column">
+            <fieldset class="fieldset-form">
+                <div class="input-container">
+                    <input name="name" id="name" class="input" type="text" placeholder="Nombre" required pattern="[\s\S]{4,50}" data-tipo="nombre">
+                    <label class="input-label" for="name">Nombre*</label>
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+                <div class="input-container">
+                    <input name="email" id="email" class="input" type="email" placeholder="Email" required data-tipo="email">
+                    <label class="input-label" for="email">Email*</label>
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+                <div class="input-container">
+                    <input name="phoneNumber" id="phoneNumber" class="input" type="text" placeholder="Número telefónico" required pattern="\d{10}" data-tipo="phoneNumber">
+                    <label class="input-label" for="phoneNumber">Número telefónico</label>
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+                <div class="input-container">
+                  <input name="cep" id="cep" class="input" type="text" placeholder="CEP" required pattern="[\s\S]{5,50}" data-tipo="asunto">
+                  <label class="input-label" for="cep">Asunto</label>
+                  <span class="input-message-error">Este campo no es valido</span>
+              </div>
+              <div class="input-container">
+                  <input name="city" id="city" class="input" type="text" placeholder="Ciudad" required pattern="[\s\S]{10,300}" data-tipo="mensaje">
+                  <label class="input-label" for="city">Mensaje</label>
+                  <span class="input-message-error">Este campo no es valido</span>
+              </div>
+            </fieldset>
+            <button class="button_form">Enviar</a>
+        </form> 
+      </div>   
+        </section>
 
       <footer class="page-footer desvanecer">
         <span>made by </span>
@@ -283,5 +340,6 @@
       </footer>
 
       <script src="Jscripts/navbar.js"></script>
+      <script src="Jscripts/app.js" type="module"></script>
 
     </body>

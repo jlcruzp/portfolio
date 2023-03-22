@@ -6,6 +6,11 @@ margin-top: 10rem;
 max-width: 1000px;
 }
 
+#juan{
+    height: 248px;
+    width: 248px;
+}
+
 .text h2{
     display:flex;
     font-family: "Gowun Dodum";
@@ -27,6 +32,7 @@ max-width: 1000px;
 .nav-social{
     display:flex;
     justify-content:space-between;
+    font-size: 1.7vw;
     
 }
 
@@ -36,7 +42,71 @@ max-width: 1000px;
 .social_item:hover{
 opacity: 0.70;
 transform: scale(1.5);
+font-weight: 500;
 
 }
 
 
+@media only screen and (min-width:401px) and (max-width:800px) {
+  
+    #juan{
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .text h2{
+        font-size: 4.3vw;
+    }
+
+    .text p{
+        font-size: 3vw;
+    }
+
+    .social_item{
+        font-size: 3vw;
+        padding: 0 3vw;
+    }
+.figuretext{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.nav-social{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+    
+  }
+
+
+  @media only screen and (max-width:400px){
+
+    .figuretext{
+        display:flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    #juan{
+        width: 45vw;
+        height: 45vw;
+        margin: 0 auto;
+    }
+
+    .text h2{
+        margin:1rem 2vw;
+        font-size: 6vw;
+        
+    }
+
+    .text p{
+        margin: 1rem 2vw;
+        font-size: 4vw;
+        padding: 0
+    }
+
+    .social_item{
+        font-size: 4vw;
+        margin: 1rem auto;
+    }
+  }

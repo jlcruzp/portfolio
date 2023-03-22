@@ -16,17 +16,19 @@
     justify-content: space-between;
     font-family: "Gowun Dodum";
   }
-  
+  .img_logo_juan{
+    width: 178px;
+  }
   .page-header button {
     display: flex;
     align-items: center;
-    font-size: 16px;
-    padding: 14px 20px;
+    font-size: 1.05rem;
+    padding: 10px 25px;
     border-radius: 10px;
     color: white;
     background-color: black;
-    transition: background 1s;
-    font-family: "Gowun Dodum";
+    transition: background 1.2s;
+    font-family: var(--font-family-logo);
   }
   
   .page-header button img {
@@ -36,5 +38,43 @@
   }
   
   .page-header button:hover {
-    background:#d07272;
+    background: var(--primary-color);
+    color: var(--contrast-dark-color);
+    font-family: var(--font-family-logo);
+  }
+
+  @media only screen and (min-width:401px) and (max-width:800px) {
+  
+    .navbar_item {
+      display:none;
+    }
+
+    .page-header nav{
+      margin-right: 2rem;
+      margin-left: 2rem;
+    }
+
+    .img_logo_juan{
+      width: 30vw;
+    }
+    
+  }
+
+
+  @media only screen and (max-width:400px){
+
+    .img_logo_juan{
+      width: 30vw;
+    }
+
+    .navbar_item {
+      display:none;
+    }
+
+    .page-header nav{
+      margin-right: 2rem;
+      margin-left: 1.5rem;
+      
+    }
+
   }

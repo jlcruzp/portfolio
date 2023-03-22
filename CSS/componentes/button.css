@@ -1,0 +1,23 @@
+.button_form {
+  display: block;
+  background-color: black;
+  border-radius: 30px;
+  width: 100%;
+  margin-top: 3rem;
+  max-width: 20rem;
+  padding: 1.125rem;
+  box-sizing: border-box;
+  color: white;
+  font-size: 2rem;
+  align-self: center;
+  text-align: center;
+  transition: 1s;
+}
+
+.button_form:hover{
+  transform: scale(1.2);
+  background: white;
+  border:.07rem solid black;
+  color: black;
+}
+

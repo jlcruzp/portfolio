@@ -1,7 +1,13 @@
+
+.section6{
+    width: 100vw;
+    margin: 0 1rem;
+    display:flex;
+}
+
 .encriptador_text{
     display:flex;
-    max-width: 1000px;
-    justify-content: space-around;
+    max-width: 100vw;
     align-items: center;
     }
 
@@ -15,11 +21,13 @@
     }
     
     .text_encriptador p{
+        
         display:flex;
-        text-align: justify;
-        padding-left: .7rem;
+        text-align: center;
+        justify-content: center;
+        
         padding-bottom: 3rem;
-        margin: 1.7rem .7rem;
+        margin: 1.7rem;
         font-size: 1.5rem;
     }
 
@@ -27,10 +35,12 @@
 .img_encriptador{
     border-radius: 1rem;
     transition: 1s;
+    height: 31vw;
+    width: 41vw;
 }
 
 .img_encriptador:hover{
-    transform: scale(1.145);
+    transform: scale(1.1);
 }
 
 .nav_encriptador{
@@ -45,4 +55,67 @@
 opacity: 0.70;
 transform: scale(1.5);
 
+}
+
+
+@media only screen and (min-width:401px) and (max-width:800px) {
+
+.img_encriptador{
+    height: 54vw;
+    width: 70vw;
+    margin: 0rem auto;
+    margin-bottom: 2rem;
+}
+
+.encriptador_text{
+    flex-direction: column;
+}
+
+.encriptador_item{
+    font-size: 3.5vw;
+    margin: 0 auto;
+}
+
+.text_encriptador p{
+
+    margin: .7rem auto;
+    padding: 0rem auto;
+}
+
+
+}
+
+
+@media only screen and (max-width:400px){
+
+    .encriptador_text{
+        flex-direction: column;
+        width: 100vw;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+    .img_encriptador{
+        height: 60vw;
+        width: 80vw;
+        margin: 0rem auto;
+        margin-bottom: 2rem;
+        padding:0;
+    }
+
+    .encriptador_item{
+        font-size: 7vw;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .text_encriptador p{
+
+        margin: .7rem auto;
+        padding: 0rem auto;
+    }
+    
 }

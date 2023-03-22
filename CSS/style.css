@@ -28,7 +28,7 @@
   }
   
   .container {
-    padding: 0 15px;
+    padding: 0 15x;
   }
   
   .container-max {
@@ -54,8 +54,8 @@
   }
   
   section .text {
-    max-width: 1000px;
-    margin: 0 auto 40px;
+    max-width: 100vwx;
+    margin: 0 auto;
   }
   
   section img {
@@ -122,6 +122,15 @@
   .page-footer a {
     display: flex;
     margin-left: 4px;
+  }
+
+  @media only screen and (min-width:0px) and (max-width:400px) {
+
+    .page-footer {
+      bottom:1vw
+
+    }
+
   }
 
   

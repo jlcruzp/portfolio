@@ -2,8 +2,41 @@
 background: white
 }
 
-.aboutmetext{
+.aboutme{
 padding-bottom: 2rem; 
 text-align: justify;
+font-size: 2rem;
+font-family: "Gowun Dodum";
+font-weight: 100;
+font-style: light;
 
+}
+.aboutmetext{
+    justify-content: center;
+}
+
+
+@media only screen and (min-width:401px) and (max-width:800px) {
+
+    .aboutme {
+font-size: 3vw;
+margin-left: 2rem;
+
+}
+
+.aboutmetext{
+    font-size: 2vw;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1vw;
+}
+
+}
+
+@media only screen and (max-width:400px){
+
+.section2{
+    margin: 1rem auto;
+}
+    
 }

@@ -7,13 +7,14 @@
     display:flex;
     justify-content: space-around;
     max-width: 90vw;
-    flex-wrap: wrap;
     padding-left: 7rem;
+    flex-wrap: wrap;
+    
 }
 
 .hobbie{
-    width: 19%;
-    height: 30vh; /*Cambiar con el responsive para ajustar a la pantalla pequeña*/
+    width: 190px;
+    height: 200px; /*Cambiar con el responsive para ajustar a la pantalla pequeña*/
     background:linear-gradient(white,white, #787878);
 
 }
@@ -35,5 +36,32 @@
     -o-transition: opacity 600ms;
     -ms-transition: opacity 600ms;
     transition: opacity 600ms;
+  }
+
+
+
+  @media only screen and (min-width:401px) and (max-width:800px) {
+
+    .hobbie_container{
+        padding-left: 0rem;
+        margin: 0 auto;
+        
+    }
+
+
+  }
+
+  @media only screen and (max-width:400px){
+
+    .hobbie{
+      width: 40vw;
+      }
+      .hobbie_container{
+          width: 100vw;
+          margin: 0 auto;
+          padding: 0;
+          justify-content: space-between;
+      }
+    
   }
 
